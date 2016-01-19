@@ -4,6 +4,7 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Shayk Yasin</title>
+    <link rel="shortcut icon" href="http://shaykyasin.github.io/favicon.ico">	
 	<style>
 		body {
 			font-size: 2em;
@@ -33,21 +34,20 @@
 			text-decoration: underline;
 		}
 		.code {
+			margin: 0 auto;
 			font-family: monospace;
 			border-radius: 0.5em;
 			background: black;
+			width: 90%;
 			padding: 1em;
+			overflow: auto;
 		}
-		#what a{
-			text-decoration: none;
-			padding: 10px 20px;
-			font-size: 2em;
+		#what{
 			float: right;
+			transition: all .3s ease-in-out;
 		}
-		#what a:hover {
-			color: black;
-			background: white;
-			border-radius: 0.1em;
+		#what:hover {
+			transform: scale(1.1);
 		}
 
 		@media (max-width: 480px) {
@@ -59,22 +59,22 @@
 				font-size: 2em;
 			}
 			.code {
-				overflow: scroll;
+				width: 85%;
 			}
 		}
 	</style>
 </head>
 <body>
-	<div id="what"><a href="http://www.freecodecamp.com/challenges/timestamp-microservice" target="blank">?</a></div>
+	<div id="what"><a href="https://github.com/shaykyasin/fcc-api-timestamp" target="blank"><img src="https://raw.githubusercontent.com/encharm/Font-Awesome-SVG-PNG/master/white/png/64/github.png" alt="find me on github"/></a></div>
 	<h1>FCC API Timestamp Microservice </h1>
 	<p>Usage:</p>
 	<div class="code">
-		<a href="https://shaykyasin-fcc-timestamp.herokuapp.com/December%2015,%202015">https://shaykyasin-fcc-timestamp.herokuapp.com/December%2015,%202015</a><br/><br/>
-		<a href="https://shaykyasin-fcc-timestamp.herokuapp.com/1450137600">https://shaykyasin-fcc-timestamp.herokuapp.com/1450137600</a>
+		<a href="https://shaykyasin-fcc-timestamp.herokuapp.com/January%2019,%202016">https://shaykyasin-fcc-timestamp.herokuapp.com/January%2019,%202016</a><br/><br/>
+		<a href="https://shaykyasin-fcc-timestamp.herokuapp.com/1453218679">https://shaykyasin-fcc-timestamp.herokuapp.com/1453218679</a>
 	</div>
 	<p>JSON response:</p>
 	<div class="code">
-		{"unix":1450137600,"natural":"December 15, 2015"}
+		{"unix":1453218679,"natural":"January 19, 2016"}
 	</div>	
 </body>
 </style>

@@ -1,0 +1,23 @@
+{
+  "name": "shaykyasin-fcc-timestamp",
+  "version": "0.0.1",
+  "description": "A Timestamp Microservice",
+  "main": "server.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shaykyasin/fcc-timestamp/"
+  },
+  "homepage": "http://www.shaykyasin.github.io/",
+  "bugs": "https://github.com/shaykyasin/fcc-timestamp/issues",
+  "keywords": [
+    "timestamp",
+    "Node",
+    "javascript",
+  ],
+  "scripts": {
+  "start": "node server.js"
+  },
+  "author": "Shayk Yasin",
+  "license": "MIT",
+  "dependencies": {}
+}
